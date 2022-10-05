@@ -12,7 +12,7 @@
     "check-types": "tsc",
     "check-format": " npm run prettier -- --list-different",
     "format": "npm run prettier -- --write",
-    "validate": "npm-run-all --parallel check-types check-format",
+    "validate": "npm-run-all --parallel check-format",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",

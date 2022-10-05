@@ -1,6 +1,6 @@
+import { render } from '@testing-library/react';
 import React from 'react';
 import { Paragraph } from './index';
-import { render } from '@testing-library/react';
 
 test('should', () => {
   //const { debug } = render( <Paragraph /> );
